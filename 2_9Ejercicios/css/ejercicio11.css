@@ -1,0 +1,48 @@
+p
+{
+    font-family: Verdana;
+}
+.especial
+{
+    font-size:1.5em;
+    font-family: Arial;
+    line-height:2em; 
+    background-color:lightgray;
+    text-indent:60px;
+    text-align: justify;
+}
+em
+{
+    font-style: italic;
+}
+.especial em
+{
+    font-weight: bold;
+    font-style: normal;
+}
+strong
+{
+    font-weight: bold;
+}
+.especial strong
+{
+    font-weight: normal;
+    font-style: italic;
+    background-color: #FF6;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 3px;
+}
+.especial::first-line
+{
+    color:blue;
+    background-color:lightblue;
+    text-transform: uppercase;
+    font-variant: small-caps;
+}
+.especial::first-letter
+{
+    font-size:2em;
+    font-family: serif;
+    color:blue;
+}

@@ -1,0 +1,20 @@
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+div
+{
+    width:170px;
+    height:60px;
+    margin:10px;
+    padding:30px;
+    background-color:blue;
+}
+div span
+{
+    background-color:#2FF;
+}
