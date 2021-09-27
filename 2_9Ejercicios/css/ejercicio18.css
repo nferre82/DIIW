@@ -1,0 +1,35 @@
+h1
+{
+    text-align: center;
+    text-shadow: -5px -5px 1.5px gray,5px 5px 1.5px rgba(128, 128, 128, 0.3);
+}
+
+div
+{
+    padding:40px;
+    background-color:gray;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+div::first-letter
+{
+    font-size: 50px;
+}
+
+div[class="caja1"]
+{
+    border: 30px solid transparent;
+    border-image:url("../imagenes/bordes.png") 33%;
+}
+
+div[class="caja2"]
+{
+    border: 30px solid transparent;
+    border-image:url("../imagenes/bordes.png") 33% round;
+}
+
+div[class="caja3"]
+{
+    border: 30px solid transparent;
+    border-image:url("../imagenes/bordes.png") 33% round;
+}

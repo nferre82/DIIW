@@ -1,0 +1,47 @@
+p
+{
+    width:450px;
+    height:120;
+    padding:20px;
+}
+
+p[class="primero"]
+{
+    border-top: 4px red solid;
+    border-bottom: 4px red solid;
+    border-left: 4px red solid;
+
+    margin-left: 30px;
+    background-color: blue;
+    padding-bottom: 70px;
+}
+p[class="primero"] span
+{
+    color:red;
+}
+
+p[class="segundo"]
+{
+    border: 8px green double;
+
+    margin-top: 40px;
+    background-color: red;
+}
+p[class="segundo"] span
+{
+    color:blue;
+}
+
+p[class="tercero"]
+{
+    border: 12px blue dotted;
+    border-bottom: 6px red dotted;
+
+    margin-left: 60px;
+    background-color: green;
+    padding-bottom: 70px;
+}
+p[class="tercero"] span
+{
+    color:white;
+}

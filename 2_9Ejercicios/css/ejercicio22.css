@@ -1,0 +1,21 @@
+body
+{
+    display:flex;
+    justify-content: center;
+}
+
+.recuadro1
+{
+    margin: 30px;
+    padding:10px 10px 0px 10px;
+    display:inline-block;
+    width: 300px;
+    height: 300px;
+    
+    border-radius:20px;
+}
+.recuadro1
+{
+    background-color:lightgray;
+    box-shadow: 30px 30px 10px green, -30px -30px 10px red;
+}
