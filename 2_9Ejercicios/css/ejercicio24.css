@@ -1,0 +1,36 @@
+body
+{
+    text-align: center;
+    justify-content: center;
+    display:flex;
+}
+div
+{
+    width:135px;
+    height:155px;
+    border:solid 5px red;
+    border-style: inset;
+    padding:20px;
+    margin:20px;
+}
+.caja1
+{
+    background-color:#23F;
+    background-image: url("../imagenes/reloj.png");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+.caja2
+{
+    background-color:#F30;
+    background-image: url("../imagenes/reloj.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+.caja3
+{
+    background-color:#3F0;
+    background-image: url("../imagenes/reloj.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}

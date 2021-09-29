@@ -17,5 +17,5 @@ body
 .recuadro1
 {
     background-color:lightgray;
-    box-shadow: 30px 30px 10px green, -30px -30px 10px red;
+    box-shadow: 0px 0px 20px green, inset 0px 0px 20px red;
 }
