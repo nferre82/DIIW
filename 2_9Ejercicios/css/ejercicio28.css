@@ -51,3 +51,193 @@ section article img {
 /* ================================================================
 Añade tus estilos aqui
 ================================================================== */
+/*PARTE_1*/
+header
+{
+    padding:1em;
+}
+nav
+{
+    padding:0.5em;
+    margin-bottom: 0.5em;
+}
+footer
+{
+    padding:0.5em;
+}
+.noticias, .publicidad, article
+{
+    padding:0.5em;
+}
+article, .noticias
+{
+    margin-bottom:1em;
+}
+img
+{
+    margin:0.5em;
+}
+footer
+{
+    margin-top:1em;
+}
+.publicidad p
+{
+    margin-top:1em;
+}
+label[for="busqueda"]
+{
+    margin-right:1em;
+}
+/*PARTE_2*/
+header, nav, aside, footer, section, .contenedor 
+{
+    border: none;
+}
+nav
+{
+    border-bottom: 1px #004C99 solid;
+}
+.noticias
+{
+    border:1px #C5C5C5 solid;
+}
+.publicidad
+{
+    border:1px #CC6600 dashed;
+}
+.lateral2
+{
+    border:1px #CC6600 solid;
+}
+footer
+{
+    border-top: 1px #C5C5C5 solid;
+    border-bottom: 1px #C5C5C5 solid;
+}
+/*PARTE_3*/
+.noticias, footer 
+{
+    background-color: #CCCCCC;
+}
+.publicidad
+{
+    background-color: #FFFF33;
+}
+.lateral2 h2
+{
+    background-color: #DB905C;
+    padding:0.2em;
+}
+nav
+{
+    background-color: darkblue;
+}
+header div[class="logo"]>h1
+{
+    background:url("../imagenes/logo.gif") no-repeat;
+    background-size: 40px 40px;
+    width:40px;
+    height:40px;
+    line-height:1.2em;
+}
+header div[class="logo"]>h1>span
+{
+    visibility:hidden;
+}
+/*PARTE_4*/
+*
+{
+    font-family: Arial;
+    font-size:0.9em;
+    line-height:1.4em;
+    color:black;
+}
+section article h2
+{
+    color:#CC6600;
+    font-size:1.6em;
+    line-height:1.2em;
+    margin-bottom: 0.3em;
+}
+nav li
+{
+    margin-right:1em;
+}
+nav li a
+{
+    color:white;
+    font-size:1.3em;
+}
+.lateral1
+{
+    font-size: 0.9em;
+}
+div[class="noticias"] span[class="fecha"]
+{
+    display:block;
+    color:#999;
+    text-align:right;
+}
+.noticias h2
+{
+    color:#003366;
+}
+.publicidad
+{
+    color:#555;
+}
+.publicidad a
+{
+    color:#CC6600;
+}
+section article a
+{
+    color:#CC6600;
+} 
+section article p
+{
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+} 
+.lateral2 h2
+{
+    color:#FFF;
+    font-size: 1em;
+}
+footer
+{
+    color:#555;
+    font-size:0.75em;
+}
+section article p
+{
+    justify-content: center;
+    line-height:1.8em;
+}
+section article p::first-letter
+{
+    margin-left: 2em;
+}
+div[class="publicidad"] p::first-letter
+{
+    font-size: 2em;
+    font-family: 'Times New Roman';
+}
+div[class="contenedor"]>section p::first-letter
+{
+    font-size: 2em;
+    font-family: 'Times New Roman';
+}
+section article h2
+{
+    word-spacing: 0.3em;
+}
+nav a
+{
+    letter-spacing: 0.3em;
+}
+a
+{
+    color:blue;
+}
