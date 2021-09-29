@@ -5,7 +5,8 @@ body
     width: 100%;
     margin:0;
     padding:0;
-    background-color: salmon;
+    background:
+        url("../imagenes/madera1.png");
 }
 
 .cuadro1 
@@ -14,7 +15,5 @@ body
     height: 100%;
     background:
         url("../imagenes/logo1.png") left top no-repeat,
-        url("../imagenes/logo1.png") right top no-repeat,
-        url("../imagenes/logo1.png") left bottom no-repeat,
-        url("../imagenes/madera1.png") right bottom no-repeat;
+        url("../imagenes/logo1.png") center/25% no-repeat;
 }
