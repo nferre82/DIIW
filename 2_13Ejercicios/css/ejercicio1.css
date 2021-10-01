@@ -1,0 +1,37 @@
+h1
+{
+    text-align: center;
+}
+#Normal
+{
+    font-size: 1.5em;
+    text-decoration: underline;
+    color:red;
+}
+section p,section div,section span
+{
+    color:white;
+    font-weight: bold;
+    border: thick solid black;
+}
+section p
+{
+    background-color: red;
+}
+section div
+{
+    background-color: green;
+    margin-top:12px;
+    margin-bottom:12px;
+}
+section p,section div
+{
+    width: 25%;
+    height: 75px;
+}
+section span
+{
+    margin-top:30px;
+    margin-bottom:30px;
+    background-color:blue;
+}

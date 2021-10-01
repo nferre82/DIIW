@@ -1,0 +1,50 @@
+body
+{
+    display:inline-block;
+}
+#Relativo
+{
+    color:red;
+    text-decoration: underline;
+    border: none;
+}
+span
+{
+    border: solid 2px black;
+    padding: 20px;
+}
+#Caja1
+{
+    background-color:red;
+    position: relative;
+    display:inline-block;
+}
+#Caja2
+{
+    background-color:blue;
+    position: relative;
+    display:inline-block;
+    left:100px;
+    top:-50px;
+}
+#Caja3
+{
+    background-color:green;
+    position: relative;
+    display:inline-block;
+}
+#Caja4
+{
+    background-color:lightblue;
+    position: relative;
+    display:inline-block;
+    left:250px;
+    top:-200px;
+}
+#Caja5
+{
+    background-color:lightgreen;
+    position: relative;
+    display:inline-block;
+    right:50px;
+}
