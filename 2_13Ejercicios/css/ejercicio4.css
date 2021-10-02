@@ -1,0 +1,52 @@
+body
+{
+    position:absolute;
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+}
+h1
+{
+    text-align: center;
+}
+.caja
+{
+    font-size:2em;
+    padding:20px;
+    border:4px solid black;
+}
+#Contenedor
+{
+    background-color: lightblue;
+    padding:40px;
+    margin:20px;
+    height:200px;
+    border:4px solid black;
+}
+#Absoluto
+{
+    font-size: 1.5em;
+    color:red;
+    text-decoration: underline;
+}
+#Caja1
+{
+    background-color: red;
+}
+#Caja2
+{
+    background-color: blue;
+    position:absolute;
+    margin:0;
+    top:80px;
+    left:150px;
+}
+#Caja3
+{
+    background-color: green;
+}
+#Caja4
+{
+    background-color: yellow;
+}
