@@ -1,3 +1,11 @@
+body
+{
+    position:absolute;
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+}
 h1
 {
     text-align: center;
@@ -8,28 +16,28 @@ h1
     text-decoration: underline;
     color:red;
 }
-section p,section div,section span
+.parrafo,.div,.span
 {
     color:white;
     font-weight: bold;
     border: thick solid black;
 }
-section p
+.parrafo
 {
     background-color: red;
 }
-section div
+.div
 {
     background-color: green;
     margin-top:12px;
     margin-bottom:12px;
 }
-section p,section div
+.parrafo,.div
 {
     width: 25%;
     height: 75px;
 }
-section span
+.span
 {
     margin-top:30px;
     margin-bottom:30px;

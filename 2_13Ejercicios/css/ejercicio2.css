@@ -1,29 +1,35 @@
 body
 {
-    display:inline-block;
+    position:absolute;
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+}
+.caja
+{
+    border: solid 4px black;
+    padding: 0px 20px 20px 0px;
+    width: 200px;
+    font-weight: bold;
 }
 #Relativo
 {
+    font-size: 1.5em;
     color:red;
     text-decoration: underline;
-    border: none;
-}
-span
-{
-    border: solid 2px black;
-    padding: 20px;
 }
 #Caja1
 {
     background-color:red;
     position: relative;
-    display:inline-block;
+    display:block;
 }
 #Caja2
 {
     background-color:blue;
     position: relative;
-    display:inline-block;
+    display:block;
     left:100px;
     top:-50px;
 }
@@ -31,13 +37,13 @@ span
 {
     background-color:green;
     position: relative;
-    display:inline-block;
+    display:block;
 }
 #Caja4
 {
     background-color:lightblue;
     position: relative;
-    display:inline-block;
+    display:block;
     left:250px;
     top:-200px;
 }
@@ -45,6 +51,5 @@ span
 {
     background-color:lightgreen;
     position: relative;
-    display:inline-block;
     right:50px;
 }
