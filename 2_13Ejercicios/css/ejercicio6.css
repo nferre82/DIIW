@@ -6,3 +6,47 @@ body
     height:100%;
     width:100%;
 }
+#Contenedor
+{
+    background-color:lightcyan;
+    width:620px;
+    height:600px;
+    margin-top:50px;
+    margin-left:auto;
+    margin-right:auto;
+    position:relative;
+    font-size: 20px;
+    z-index:0;
+}
+#Css
+{
+    width:350px;
+    background-color:lightgray;
+    font-family: Algerian;
+    font-size: 200px;
+    color:blue;
+    position:absolute;
+    top:250px;
+    left:120px;
+    z-index:1;
+}
+#Efecto
+{
+    font-family: Arial;
+    font-size: 70px;
+    color:#ff00ff;
+    position:absolute;
+    top:230px;
+    left:40px;
+    z-index:2;
+}
+#Hoja
+{
+    font-family: Arial;
+    font-size: 90px;
+    color:red;
+    position:absolute;
+    top:255px;
+    left:40px;
+    z-index:3;
+}

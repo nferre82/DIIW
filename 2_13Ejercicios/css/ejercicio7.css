@@ -1,0 +1,84 @@
+body
+{
+    position:absolute;
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+    color:white;
+    font-size:20px;
+}
+#Capapadre
+{
+    background-color:#CCF;
+    border:3px solid #9933ff;
+    margin:auto;
+    height:800px;
+    width:1000px;
+}
+p
+{
+    background-color:white;
+    padding:20px;
+    margin:20px;
+    font-weight: bold;
+    font-family: Verdana;
+    color:navy;
+    text-align: center;
+}
+#Capahija1
+{
+    background-color:#6CF;
+    border:3px solid blue;
+    margin:auto;
+    height:75%;
+    width:80%;
+    font-size: 0.8em;
+}
+#Capahija2
+{
+    background-color:#FCF;
+    border:3px solid purple;
+    height:400px;
+    width:400px;
+    position:relative;
+    left:15px;
+    font-size: 0.8em;
+}
+#Capahija3
+{
+    background-color:transparent;
+    border:3px solid blue;
+    height:210px;
+    width:380px;
+    position:relative;
+    bottom:150px;
+    left:370px;
+    font-size: 0.8em;
+}
+#Capahija4
+{
+    background-color:grey;
+    border:3px solid red;
+    height:240px;
+    width:240px;
+    position:relative;
+    top:-623px;
+    left:510px;
+    font-size: 0.8em;
+} 
+li
+{
+    color:blue;
+}
+#Capahija2_1
+{
+    background-color: transparent;
+    border: orange solid;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 50px;
+    top: 10px;
+    font-size: 0.8em;
+}
