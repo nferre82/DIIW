@@ -1,0 +1,44 @@
+body
+{
+    position:absolute;
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+}
+#contenedor
+{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    background-color: rgb(43, 39, 39);
+}
+#caja1,#caja2,#caja3,#caja4
+{
+    padding:20px;
+    background-color: gray;
+    text-align: center;
+    color:white;
+
+    align-items: center;
+    justify-content: center;
+    margin:2px;
+    width:25px;
+}
+#caja1
+{
+    order:3;
+}
+#caja2
+{
+    order:1;
+}
+#caja3
+{
+    order:4;
+}
+#caja4
+{
+    width:80px;
+    order:2;
+}
