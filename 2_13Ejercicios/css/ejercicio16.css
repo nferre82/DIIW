@@ -1,0 +1,49 @@
+body
+{
+    position:absolute;
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+    color:gray;
+}
+h1
+{
+    text-align: center;
+    font-size: 50px;
+}
+main
+{
+    display:table;
+    table-layout: fixed;
+    margin:auto;
+    width:1500px;
+}
+img
+{
+    width:80%;
+}
+main > div:nth-of-type(1)
+{
+    display: table-row;
+    text-align: center;
+}
+main > div:nth-of-type(2)
+{
+    display: table-caption;
+    font-size: 30px;
+    caption-side: bottom;
+    text-align: center;
+    font-style: italic;
+}
+main > div > div
+{
+    display: table-cell;
+    border: 1px solid;
+    vertical-align: middle;
+}
+main > div > div:nth-of-type(1)
+{
+    font-size: 30px;
+    width: 200px;
+}
