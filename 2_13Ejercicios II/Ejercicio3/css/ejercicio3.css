@@ -1,0 +1,53 @@
+body
+{
+    position:absolute;
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+}
+.contenedor
+{
+    display:grid;
+    grid-auto-rows: 100px;
+    grid-auto-columns: 100px;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+div div
+{
+    border:5px solid black;
+    text-align:center;
+    background-color: gray;
+}
+.caja1
+{
+    grid-row: 1/4;
+    grid-column: 1/4;
+}
+.caja2
+{
+    grid-row: 1/4;
+    grid-column: 6/9;
+}
+.caja3
+{
+    grid-row: 1/4;
+    grid-column: 11/14;
+}
+.caja4
+{
+    grid-row: 1/4;
+    grid-column: 15/19;
+}
+.caja5
+{
+    grid-row: 6/9;
+    grid-column: 1/4;
+}
+.caja6
+{
+    background-color: blue;
+    grid-row: 7/10;
+    grid-column: 7/10;
+}
