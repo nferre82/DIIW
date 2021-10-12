@@ -1,0 +1,48 @@
+body
+{
+    position:absolute;
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+}
+.contenedor
+{
+    background-color:#67A897;
+    padding: 30px 30px 5px 30px;
+    margin:0;
+    display:flex;
+    justify-content: center;
+}
+ul li
+{
+    margin-left:10px;
+    margin-right:10px;
+    list-style-type: none;
+}
+ul li a
+{
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 27px;
+    background-color: #4A6867;
+    color:#FFF;
+    padding-left:18px;
+    padding-right:18px;
+}
+ul li a:visited
+{
+    background-color: #FFF;
+    color:#4A6867;
+}
+ul li a:visited:hover
+{
+    background-color: #2E4560;
+    color:#FFF;
+}
+ul li a:hover
+{
+    background-color: #2E4560;
+}

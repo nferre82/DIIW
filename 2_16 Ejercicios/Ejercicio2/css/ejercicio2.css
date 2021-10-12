@@ -1,0 +1,36 @@
+body
+{
+    position:absolute;
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+}
+p
+{
+    float:left;
+    width:100%;
+}
+a
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+.color
+{
+    border-bottom: medium solid red;
+}
+.ancho
+{
+    border-bottom: thick solid blue;
+}
+.separado
+{
+    border-bottom: 2px solid violet;
+    padding-bottom: 10px;
+}
+.discontinuo
+{
+    border-bottom: 3px dashed green;
+}

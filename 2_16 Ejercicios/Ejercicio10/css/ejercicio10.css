@@ -1,0 +1,38 @@
+body
+{
+    position:absolute;
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+}
+ul
+{
+    width:200px;
+    margin:0;
+    padding:0;
+    font-family: Helvetica, Verdana, Arial;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 2.2em;
+}
+ul li
+{
+    border-top: 1px solid #4D0000;
+    border-bottom: 1px solid #761A1A;
+    background-color: #660000;
+    padding-left:10px;
+}
+ul li a
+{
+    color:#FFF;
+    text-decoration: none;
+    padding-left: 20px;
+}
+ul li:hover
+{
+    background-image: url(../../imagenes/vert-one_arrow.gif);
+    background-repeat: no-repeat;
+    background-position: .5px center;
+    background-color:#900;
+}

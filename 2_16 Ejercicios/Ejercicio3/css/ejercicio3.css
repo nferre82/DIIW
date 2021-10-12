@@ -1,0 +1,27 @@
+body
+{
+    position:absolute;
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+}
+p
+{
+    float:left;
+    width:100%;
+}
+a
+{
+    color: #C00;
+    padding:5px;
+}
+a:hover
+{
+    background-color: #C00;
+    color:white;
+}
+a:visited
+{
+    color:#CCC;
+}

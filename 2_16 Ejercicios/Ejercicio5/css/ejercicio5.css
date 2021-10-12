@@ -1,0 +1,29 @@
+body
+{
+    position:absolute;
+    margin:0;
+    padding:10px;
+    height:100%;
+    width:100%;
+}
+p
+{
+    float:left;
+    width:100%;
+}
+a
+{
+    text-decoration: none;
+    background-color: #EEE;
+    color: #222;
+    border: 2px outset #CCC;
+    padding:3px 15px 3px 15px;
+}
+a:hover
+{
+    background-color:#CCB;
+}
+a:active
+{
+    border:2px inset #000;
+}

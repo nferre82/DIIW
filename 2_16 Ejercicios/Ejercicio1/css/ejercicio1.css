@@ -6,3 +6,34 @@ body
     height:100%;
     width:100%;
 }
+a
+{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display:block;
+}
+.alternativo
+{
+    color:red;
+}
+.alternativo::first-letter
+{
+    font-size: 2em;
+}
+.simple
+{
+    text-decoration: none;
+}
+.importante
+{
+    font-size: 1.3em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.raro
+{
+    text-decoration: overline;
+    font-size: 1.2em;
+    letter-spacing:5px;
+    color:green;
+}

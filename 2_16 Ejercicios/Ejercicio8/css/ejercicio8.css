@@ -1,0 +1,42 @@
+body
+{
+    position:absolute;
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+}
+.menu
+{
+    margin:0;
+    padding:0;
+    width:180px;
+    border:1px solid lightgrey;
+}
+.menu li
+{
+    border:1px solid lightgrey;
+    background-color: lightcyan;
+    list-style-type: none;
+}
+li a
+{
+    padding-left: 20px;
+    background-image: url(../../imagenes/flecha_inactiva.png);
+    background-repeat: no-repeat;
+    background-position: 3px center;
+    background-color:lightcyan;
+    color:grey;
+    text-decoration: none;
+    padding: .2em 0 .2em 1.5em;
+}
+li:hover
+{
+    cursor: pointer;
+}
+li a:hover
+{
+    background-image: url(../../imagenes/flecha_activa.png);
+    background-color:cyan;
+    color:white;
+}
