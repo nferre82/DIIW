@@ -5,4 +5,43 @@ body
     padding:0;
     height:100%;
     width:100%;
+    background-color: #366;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+ul{margin:0;padding:0;}
+li{list-style-type:none;}
+.nivel1
+{
+    display:flex;
+    justify-content: center; 
+    text-align: center;
+}
+.nivel1 li
+{
+    width:162px;
+    margin-right:2px;
+}
+a
+{
+    display:block;
+    background-color: #399;
+    color:white;
+    border: 1px solid white;
+    padding:8px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 35px;
+}
+li>ul
+{
+    display:none;
+}
+li:hover>ul
+{
+    display:block;
+}
+li:hover>a
+{
+    background-color: #6CC;
+    color:#000;
 }
