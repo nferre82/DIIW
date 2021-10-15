@@ -18,6 +18,8 @@ body *
 }
 .contenedor 
 {
+    margin:0;
+    padding:0;
     background-color: transparent;
 }
 article
@@ -29,16 +31,15 @@ article
     .contenedor
     {
         display:flex;
-        margin:0;
     }
     .contenedor section
     {
-        width:50%;
-        margin:0px 20px 0px 0px;
+        width:70%;
+        margin:20px;
     }
     .contenedor aside 
     {
-        width:50%;
-        margin:0px 0px 0px 20px;
+        width:30%;
+        margin:20px;
     }
 }
