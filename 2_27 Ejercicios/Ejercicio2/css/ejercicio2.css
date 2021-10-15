@@ -5,4 +5,40 @@ body
     padding:0;
     height:100%;
     width:100%;
+    background-color: black;
+}
+body *
+{
+    background-color: rgb(30, 120, 195);
+    border-radius: 20px;
+    margin:20px;
+    padding:20px;
+    color:white;
+    text-align: center;
+}
+.contenedor 
+{
+    background-color: transparent;
+}
+article
+{
+    background-color: rgb(40, 70, 175);
+}
+@media all and (min-width: 400px) and (max-width: 960px)
+{
+    .contenedor
+    {
+        display:flex;
+        margin:0;
+    }
+    .contenedor section
+    {
+        width:50%;
+        margin:0px 20px 0px 0px;
+    }
+    .contenedor aside 
+    {
+        width:50%;
+        margin:0px 0px 0px 20px;
+    }
 }
