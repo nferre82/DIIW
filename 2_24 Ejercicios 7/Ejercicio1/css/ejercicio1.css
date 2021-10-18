@@ -5,4 +5,77 @@ body
     padding:0;
     height:100%;
     width:100%;
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2
+{
+    text-shadow: 2px 2px 2px grey;
+}
+ul
+{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+ul li 
+{
+    list-style-type: none;
+    border:2px solid lightgrey;
+    padding:10px;
+    margin:10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+img,video
+{
+    transition:filter 1s;
+}
+#gato1:hover,#gato2:hover,#gato3:hover,#gato4:hover,#gato5:hover,#gato6:hover,
+#gato7:hover,#gato8:hover,#gato9:hover,#gato10:hover,video:hover
+{
+    filter:none;
+}
+#gato1
+{
+    filter:none;
+}
+#gato2
+{
+    filter:hue-rotate(200deg);
+}
+#gato3
+{
+    filter:brightness(3);
+}
+#gato4
+{
+    filter:contrast(10);
+}
+#gato5
+{
+    filter:saturate(10);
+}
+#gato6
+{
+    filter:invert(1);
+}
+#gato7, video
+{
+    filter:grayscale(1);
+}
+#gato8
+{
+    filter:sepia(1);
+}
+#gato9
+{
+    filter:blur(4px);
+}
+#gato10
+{
+    filter:opacity(0.3);
 }
