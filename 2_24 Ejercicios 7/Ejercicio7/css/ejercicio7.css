@@ -6,3 +6,28 @@ body
     height:100%;
     width:100%;
 }
+.contenedor
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+}
+.recuadro
+{
+    margin:10px;
+    padding:10px 10px 0px 10px;
+    display:inline-block;
+    width: 300px;
+    height: 300px;
+    background-color:lightgray;
+    border-radius: 20px;
+
+    transition: background-color 4s, width 1.5s, height 1.5s;
+}
+.recuadro:hover 
+{
+    background-color:red;
+    width:400px;
+    height:250px;
+}

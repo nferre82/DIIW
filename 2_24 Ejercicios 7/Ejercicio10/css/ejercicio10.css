@@ -6,3 +6,47 @@ body
     height:100%;
     width:100%;
 }
+.recuadro
+{
+    position:relative;
+    margin:10px;
+    padding:10px;
+    display:inline-block;
+    width: 50px;
+    height: 50px;
+    background-color:lightgray;
+    border-radius: 10px;
+
+    animation-duration: 3s;
+    animation-name: animacion;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}  
+@keyframes animacion 
+{
+    0%   
+    {
+        left:0px; 
+        top:0px;
+    }
+    25%  
+    {
+        left:200px; 
+        top:0px;
+    }
+    50%  
+    {
+        left:200px; 
+        top:200px;
+    }
+    75%  
+    {
+        left:0px; 
+        top:200px;
+    }
+    100% 
+    {
+        left:0px; 
+        top:0px;
+    }
+}

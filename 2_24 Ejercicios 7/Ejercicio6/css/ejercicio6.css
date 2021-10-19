@@ -6,3 +6,33 @@ body
     height:100%;
     width:100%;
 }
+.contenedor
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inclinado, .escalado, .girado
+{
+    display:inline-block;
+    border:2px solid black;
+    font-weight: bold;
+    font-family: Arial;
+    text-align:left;
+    width:200px;
+    height:60px;
+    padding:20px;
+    margin:10px;
+}
+.inclinado
+{
+    transform:skewX(30deg);
+}
+.escalado
+{
+    transform:scaleY(0.7);
+}
+.girado
+{
+    transform: rotate(30deg);
+}

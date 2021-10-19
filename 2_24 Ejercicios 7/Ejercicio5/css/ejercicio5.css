@@ -6,3 +6,33 @@ body
     height:100%;
     width:100%;
 }
+.contenedor
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.recuadro1, .recuadro2, .recuadro3
+{
+    margin:10px;
+    padding:10px 10px 0px 10px;
+    display:inline-block;
+    width: 300px;
+    height: 300px;
+
+    background-color:lightgray;
+    border-radius: 20px;
+}
+.recuadro1
+{
+    transform:skewX(15deg);
+}
+.recuadro2
+{
+    transform:skewY(15deg);
+}
+.recuadro3
+{
+    transform:skew(15deg,15deg);
+}
