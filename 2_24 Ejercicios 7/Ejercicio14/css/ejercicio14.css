@@ -1,17 +1,17 @@
-body
+html
 {
-    position:absolute;
+    position: absolute;
     margin:0;
     padding:0;
     height:100%;
     width:100%;
-
+}
+body
+{
     display:flex;
     flex-direction: column;
     align-items: center;
-
-    background: rgb(0,0,0);
-    /* background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(84,83,101,1) 50%, rgba(0,0,0,1) 100%); */
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(84,83,101,1) 50%, rgba(0,0,0,1) 100%);                                                                                    
 }
 body h2 
 {
@@ -21,5 +21,38 @@ body h2
 {
     display:flex;
     flex-direction: column;
-    align-items: center;
+}
+#home,#about,#services,#portfolio,#contact_us
+{
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width:38px;
+    height:38px;
+    overflow: hidden;
+}
+#home img
+{       
+    object-fit: cover;
+    object-position: -38px 0px;
+}
+#about img
+{
+    object-fit: cover;
+    object-position: -38px 0px;
+}
+#services img
+{
+    object-fit: cover;
+    object-position: -38px 0px;
+}
+#portfolio img
+{
+    object-fit: cover;
+    object-position: -38px 0px;
+}
+#contact_us img
+{
+    object-fit: cover;
+    object-position: -38px 0px;
 }
