@@ -28,7 +28,7 @@ img
     box-sizing: border-box;
     float: left;
     width: 25%;
-    height: 100%;
+    height: 300px;
     overflow: hidden;
     transform: skewX(-20deg);
     transition: width 1.2s ease-in-out;
@@ -39,7 +39,7 @@ img
 }
 .slider-k > div:last-child
 {
-    width: 40%;
+    width: 50%;
     margin-right: -63px;
 }
 .slider-k:hover div
