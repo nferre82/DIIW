@@ -5,4 +5,37 @@ body
     padding:0;
     height:100%;
     width:100%;
+
+    background-color: red;
+    display: flex;
+    justify-content: center;
+}
+#girando
+{
+    background-color: rgb(114, 25, 25);
+    color:white;
+    position: absolute;
+    width:250px;
+    height:50px;
+    margin-top: 20px;
+
+    animation-duration: 4s;
+    animation-name: animacion;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+@keyframes animacion
+{
+    0%
+    {
+        transform:rotateY(0deg);
+    }
+    50%
+    {
+        transform:rotateY(180deg);
+    }
+    100%
+    {
+        transform:rotateY(360deg);
+    }
 }

@@ -19,6 +19,7 @@ body h2
 }
 .contenedor 
 {
+    width:138px;
     display:flex;
     flex-direction: column;
 }
@@ -34,7 +35,7 @@ body h2
 #home img
 {       
     object-fit: cover;
-    object-position: -38px 0px;
+    object-position: 0px 0px;
 }
 #about img
 {
@@ -44,15 +45,65 @@ body h2
 #services img
 {
     object-fit: cover;
-    object-position: -38px 0px;
+    object-position: -76px 0px;
 }
 #portfolio img
 {
     object-fit: cover;
-    object-position: -38px 0px;
+    object-position: -114px 0px;
 }
 #contact_us img
 {
     object-fit: cover;
-    object-position: -38px 0px;
+    object-position: -152px 0px;
+}
+.contenedor > div
+{
+    display:flex;
+}
+#c-home div:nth-of-type(2)
+{
+    background-color: rgba(144, 238, 144, 0.8);
+    transition: width 2s;
+    overflow: hidden;
+    width:0px;
+    height: 38px;
+}
+#c-about div:nth-of-type(2)
+{
+    background-color: rgba(135, 206, 250, 0.8);
+    transition: width 2s;
+    overflow: hidden;
+    width:0px;
+    height: 38px;
+}
+#c-services div:nth-of-type(2)
+{
+    background-color: rgba(255, 160, 122, 0.8);
+    transition: width 2s;
+    overflow: hidden;
+    width:0px;
+    height: 38px;
+}
+#c-portfolio div:nth-of-type(2)
+{
+    background-color: rgb(228, 162, 40, 0.8);
+    transition: width 2s;
+    overflow: hidden;
+    width:0px;
+    height: 38px;
+}
+#c-contact_us div:nth-of-type(2)
+{
+    background-color: rgba(255, 182, 193, 0.8);
+    transition: width 2s;
+    overflow: hidden;
+    width:0px;
+    height: 38px;
+}
+#c-home:hover div:nth-of-type(2), #c-about:hover div:nth-of-type(2), 
+#c-services:hover div:nth-of-type(2), #c-portfolio:hover div:nth-of-type(2),
+#c-contact_us:hover div:nth-of-type(2)
+{
+    width:100px;
 }

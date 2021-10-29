@@ -5,4 +5,100 @@ body
     padding:0;
     height:100%;
     width:100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arbol
+{
+    background:url(../../imagenes/ej03_tree.jpg);
+    background-size: cover;
+    width:700px;
+    height:900px;
+}
+.nieve div 
+{
+    position:absolute;
+    display: inline-block;
+    animation: copo_de_nieve infinite linear normal;
+    width: 40px;
+    height:40px;
+}
+.nieve div:nth-of-type(1)
+{
+    transform:translateX(50px);
+    animation-duration: 8s;
+}
+.nieve div:nth-of-type(2)
+{
+    transform:translateX(250px);
+    animation-duration: 6s;
+}
+.nieve div:nth-of-type(3)
+{
+    transform:translateX(450px);
+    animation-duration: 10s;
+}
+.nieve div:nth-of-type(4)
+{
+    transform:translateX(650px);
+    animation-duration: 9s;
+}
+.nieve span 
+{
+    position:absolute;
+    background:url(../imagenes/nieve.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:100%;
+}
+span 
+{
+    animation: copo_de_nieve_rotacion infinite normal;
+    animation-duration: 9s;
+    animation-timing-function: ease-in-out;
+}
+@keyframes copo_de_nieve_rotacion
+{
+    from
+    {
+        transform:rotateZ(0deg);
+    }
+    to
+    {
+        transform:rotateZ(775deg);
+    }
+}
+@keyframes copo_de_nieve
+{
+    0%
+    {
+        transform:rotateZ(0deg), translate(0%,0%);
+        left:0%;
+        top:0%;
+        opacity: 0;
+    }
+    33%
+    {
+        transform:rotateZ(225deg), translate(0%,0%);
+        left:25%;
+        top:30%;
+        opacity: 1;
+    }
+    66%
+    {
+        transform:rotateZ(450deg), translate(0%,0%);
+        left:0%;
+        top:70%;
+        opacity: 1;
+    }
+    100%
+    {
+        transform:rotateZ(775deg), translate(0%,0%);
+        left:40%;
+        top:90%;
+        opacity: 0;
+    }
 }
